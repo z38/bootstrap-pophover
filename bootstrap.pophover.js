@@ -64,7 +64,7 @@
   
   Pophover.prototype.elementLeave = function() {
     setTimeout($.proxy(function () {
-      if(!this.tip().hasClass('in')) {
+      if(!this.tip().is(':hover')) {
         this.hide()
       }
     }, this), 100);
