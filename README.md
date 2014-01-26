@@ -7,15 +7,17 @@ Usage
 -----
 The component can be used almost in the same way as the built-in popover component:
 ```javascript
-$('#button').pophover({
+$('#example').pophover({
     placement: 'bottom',
     content: '<a class="alert btn btn-default">Click me</a>'
 });
 
 $(document).on('click', '.alert', function() {
-    alert('You clicked this button.');
+    alert('You clicked a button in a popover.');
 });
 ```
+
+See a demo on [JSFiddle](http://jsfiddle.net/XnHLQ/).
 
 License
 -------
