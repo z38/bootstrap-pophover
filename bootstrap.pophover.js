@@ -25,7 +25,7 @@
  * ======================================================================== */
 
 
-function ($) { "use strict";
++function ($) { "use strict";
 
   // POPHOVER PUBLIC CLASS DEFINITION
   // ===============================
